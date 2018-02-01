@@ -16,6 +16,7 @@ class Song
 
   def self.genres
     #returns array of all genres of existing songs
+    @@genres
   end
   # count
   # artists
