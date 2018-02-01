@@ -18,10 +18,10 @@ class Song
 
   def self.genres
     #returns array of all genres of existing songs
-    @@genres= @@genres.uniq
+    @@genres.uniq
   end
 
   def self.artists
-    
+    @@artists.uniq
   end
 end
