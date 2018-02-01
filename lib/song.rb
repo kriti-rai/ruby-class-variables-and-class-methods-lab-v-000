@@ -6,7 +6,7 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    @@count +=1
+    @@count += 1
     @@genres << genre
   end
 
@@ -16,7 +16,7 @@ class Song
 
   def self.genres
     #returns array of all genres of existing songs
-    @@genres
+    @@genres= @@genres.uniq
   end
   # count
   # artists
